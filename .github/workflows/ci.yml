@@ -1,5 +1,8 @@
 name: build
 on: [push, pull_request]
+env:
+  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
+  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
 jobs:
 
   Linux:
