@@ -10,6 +10,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 )
 
+
 type (
 	// ServiceError is the default error type used by the goa package to
 	// encode and decode error responses.
